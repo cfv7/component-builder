@@ -6,7 +6,7 @@ import './index.css';
 
 ReactDOM.render(
   <PlayerSearch 
-    playerData={
+    Arsenal={
       Arsenal
     }
   />,

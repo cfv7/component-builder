@@ -1,9 +1,12 @@
 import React from 'react';
 
 export default function PlayerList(props) {
+  function reactClasses(position){
+    return `card ${position}`
+  }
   const playerData = props.playerData.map((object, index) => 
-  <li key={index}><p><strong>{object.name}</strong> - Arsenal - {object.position} - {object.nationality} - {object.marketValue} y/o</p></li>)
+  <li key={index} className={reactClasses(object.position)} ><p><strong>{object.name}</strong> - {object.position} - {object.nationality} - {object.marketValue}</p></li>)
   return (
-    <ul> {playerData}</ul>
+    <ol className="background"> {playerData}</ol>
   )
 } 

@@ -2,4 +2,58 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background-color: silver;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.card {
+  border: 1px solid black;
+  padding-left: 40px;
+}
+
+.Keeper {
+  background-color: orange;
+}
+
+.Back, .Left-Back, .Right-Back {
+  background-color: yellow;
+}
+
+.Midfield {
+  background-color: green;
+}
+
+.Forward, .Striker, .Wing {
+  background-color: dodgerblue;
+}
+
+.radio-box {
+  text-align: center;
+  width: 15%;
+  height: 10%;
+  display: inline-block;
+  margin-right: 30%;
+}
+
+.radio-text {
+  font-size: 20px;
+  text-decoration: bold;
+  display: inline;
+}
+
+.search-box {
+  display: inline-block;
+  margin-bottom: 30px;
+  border: 1px solid black;
+  height: 10%;
+  width: 50%;
+  text-align: center;
+  background-color: #ED1B24;
+}
+
+.search-box input {
+  width: 200px;
+  font-size: 50px;
+  margin: 10px;
 }
