@@ -22,7 +22,7 @@ export default class PlayerSearch extends React.Component {
     this.setState(input);
   }
   render() {
-    const filteredPlayers = this.props.playerData.filter((player) => player.name.toLowerCase().includes(this.state.nameSearch.toLowerCase()))
+    const filteredPlayers = this.props.Arsenal.players.filter((player) => player.name.toLowerCase().includes(this.state.nameSearch.toLowerCase()))
     return(
       <div>
         <SearchInput playerName={(val) => this.set('nameSearch', val)}/>
