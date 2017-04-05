@@ -6,7 +6,7 @@ import SearchInput from './search-input';
 // search by player.query
 // drop-down menus are next step
 // regex101
-
+// [0-9/\W.,]
 
 
 export default class PlayerSearch extends React.Component {
