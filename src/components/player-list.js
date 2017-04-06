@@ -7,6 +7,6 @@ export default function PlayerList(props) {
   const playerData = props.playerData.map((object, index) => 
   <li key={index} className={reactClasses(object.position)} ><p><strong>{object.name}</strong> - {object.position} - {object.nationality} - {object.marketValue}</p></li>)
   return (
-    <ol className="background"> {playerData}</ol>
+    <ul className="background"> {playerData}</ul>
   )
 } 
